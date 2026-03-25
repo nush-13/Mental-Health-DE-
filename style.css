@@ -1,0 +1,96 @@
+/* Styling the or options button */
+.st-key-back_to button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid rgb(255, 135, 61);
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.st-key-back_to button:hover {
+  letter-spacing: 3px;
+  background-color: rgb(255, 135, 61);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(255, 135, 61) 0px 7px 29px 0px;
+}
+
+.st-key-back_to button:active {
+  letter-spacing: 3px;
+  background-color: hsl(23, 100%, 62%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(255, 135, 61) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+/* Styling the Form Submit button */
+.stFormSubmitButton button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid hsl(88, 93%, 71%);
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.stFormSubmitButton button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(88, 93%, 71%);
+  color: hsl(0, 100%, 76%);
+  box-shadow: hsl(88, 93%, 71%) 0px 7px 29px 0px;
+}
+
+.stFormSubmitButton button:active {
+  letter-spacing: 3px;
+  background-color: hsl(88, 93%, 71%);
+  color: hsl(0, 100%, 76%);
+  box-shadow: hsl(88, 93%, 71%) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+/* styling the confirmation button */
+.st-key-confirmation_button button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid hsl(347, 100%, 65%);
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(73, 203, 255);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.st-key-confirmation_button button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(347, 100%, 65%);
+  color: hsl(198, 79%, 13%);
+  box-shadow: hsl(347, 100%, 65%) 0px 7px 29px 0px;
+}
+
+.st-key-confirmation_button button:active {
+  letter-spacing: 3px;
+  background-color: hsl(347, 100%, 65%);
+  color: hsl(198, 79%, 13%);
+  box-shadow: hsl(347, 100%, 65%) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.prompt {
+  text-align: center;
+}
